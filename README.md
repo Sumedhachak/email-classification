@@ -13,13 +13,21 @@ Classification models
 The classifiers used are:
 
 SGDClassifier
+
 MLPClassifier
+
 DecisionTreeClassifier
+
 RandomForestClassifier
+
 AdaBoostClassfier
+
 KNNClassifier
+
 NaiveBayes
+
 (Linear) SVM
+
 Dataset
 The above classifier are trained on the SpamAssassin public mail corpus which consists of a selection of mail messages, labelled as spam or ham.
 
@@ -27,7 +35,11 @@ Evaluation
 Each classifier is evaluated using the following performance measures:
 
 confusion matrix
+
 accuracy
+
 precision
+
 recall
+
 f1 score
